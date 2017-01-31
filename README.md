@@ -11,7 +11,7 @@ On you project directory run the `composer require` command from the Terminal:
 Now add the service provider to your `config/app.php` file.
 Add this line to the `providers` array:
 
-    ahkmunna\validator\validatorServiceProvider::class
+    ahkmunna\validator\CompositeUniqueValidatorServiceProvider::class
 
 ##Translations
 Run this command to move the translation file
